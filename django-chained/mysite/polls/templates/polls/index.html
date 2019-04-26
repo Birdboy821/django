@@ -1,0 +1,98 @@
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}">
+<body>
+{% if latest_question_list %}
+    <ul class="lis">
+    {% for question in latest_question_list %}
+        <li class="lsl"><a href="{% url 'polls:detail' question.id %}" class="ques">{{ question.question_text }} </a></li>
+    {% endfor %}
+    </ul>
+<div class="a">
+<div>
+<div class="a">
+<div>
+<div class="a">
+<div>
+<div class="a">
+<div class="a">
+<div>
+<div class="a">
+<div>
+<div class="a">
+<div>
+<div class="a">
+<div>
+    <img class="bird" src="../../static/polls/images/happy.gif">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="a">
+<div>
+<div class="a">
+<div>
+<div class="a">
+<div>
+<div class="a">
+<div>
+    <img class="bird" src="../../static/polls/images/run.gif">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="a">
+<div>
+<div class="a">
+<div>
+<div class="a">
+<div>
+<div class="a">
+<div>
+    <img class="bird" src="../../static/polls/images/phone.gif">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="a">
+<div>
+<div class="a">
+<div>
+<div class="a">
+<div>
+<div class="a">
+<div>
+    <img class="bird" src="../../static/polls/images/ritual.gif">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+{% else %}
+    <p class="test">No polls are available.</p>
+    <img class="bird, cup" src="../../static/polls/images/background.gif" height="480" width="640">
+    <img class="bird" src="../../static/polls/images/anger.gif" height="460" width="610">
+    <img class="bird" src="../../static/polls/images/fap.gif" height="640" width="640">
+    <img class="bird" src="../../static/polls/images/sleep.gif" height="640" width="640">
+{% endif %}
+</body>

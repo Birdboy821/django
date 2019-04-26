@@ -1,0 +1,91 @@
+.ques {
+    color: #ff69b4;
+    font-size: 2em;
+    border: white outset 0.125em;
+
+}
+
+/**/
+
+.lis {
+    color: #ff69b4;
+}
+
+.lsl {
+    padding: 0.5em;
+}
+
+ul {
+    border: rgb(0, 153, 255) inset 0.5em;
+}
+
+body {
+    background: black;
+}
+
+/*bird gifs*/
+
+.bird {
+    border: rgb(0, 153, 255) inset 0.5em;
+    border-radius: 100% ;
+    align-content: center;
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/*no polls thingy*/
+
+.test {
+    color: pink;
+    background: cornflowerblue;
+    padding: 1em;
+    font-size: 4em;
+    border: white inset 0.25em;
+    max-width: 25%;
+}
+
+/*repeat border radius*/
+
+div {
+    border-radius: 100%;
+    border: #ff69b4 inset 1em;
+    box-shadow: 5px 10px yellowgreen;
+    background-color: rgb(253, 255, 228);
+}
+
+/*repeat border radius*/
+
+.a {
+    border-radius: 100%;
+    border: #ff69b4 outset 1em;
+}
+
+/*result text*/
+
+.text {
+    color: rgb(229, 255, 0);
+}
+
+/*choose*/
+
+.ft {
+    color: hotpink;
+    font-size: 50px;
+}
+
+/*vote butten*/
+.ghj {
+    height: 1000px;
+    width: 1000px;
+    color: lawngreen;
+    font-size: 10em;
+    background-image: url(../polls/images/sad2.gif);
+    background-repeat: no-repeat;
+    background-size: 1000px 1000px;
+}
+
+
+/*503.25*/

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<head>
+    <title>Bird Clicker</title>
+    <script>
+
+        function clickCounter() {
+            if (typeof(Storage) !== "undefined") {
+                if (localStorage.clickcount) {
+                localStorage.clickcount = Number(localStorage.clickcount)+100;
+                } else {
+                localStorage.clickcount = 0;
+                }
+                document.getElementById("result7").innerHTML = "You have " + localStorage.clickcount7 + " many human clicks.";
+                document.getElementById("result6").innerHTML = "You have " + localStorage.clickcount6 + " many Rabbits clicks.";
+                document.getElementById("result5").innerHTML = "You have " + localStorage.clickcount5 + " many Penguins clicks.";
+                document.getElementById("result4").innerHTML = "You have " + localStorage.clickcount4 + " many Foxes clicks.";
+                document.getElementById("result2").innerHTML = "You have " + localStorage.clickcount2 + " many Mice clicks.";
+                document.getElementById("result3").innerHTML = "You have " + localStorage.clickcount3 + " many Owls clicks.";
+                document.getElementById("result").innerHTML = "You have " + localStorage.clickcount + " many Bird clicks.";
+            } else {
+                document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
+            }
+        }
+
+        function clickCounter2() {
+            if (typeof(Storage) !== "undefined") {
+                if (localStorage.clickcount2) {
+                    if (localStorage.clickcount >= 5) {
+                        localStorage.clickcount2 = Number(localStorage.clickcount2)+100;
+                        localStorage.clickcount = Number(localStorage.clickcount)-5;
+                    }
+                
+                } else {
+                localStorage.clickcount2 = 0;
+                }
+                document.getElementById("result7").innerHTML = "You have " + localStorage.clickcount7 + " many human clicks.";
+                document.getElementById("result6").innerHTML = "You have " + localStorage.clickcount6 + " many Rabbits clicks.";
+                document.getElementById("result5").innerHTML = "You have " + localStorage.clickcount5 + " many Penguins clicks.";
+                document.getElementById("result4").innerHTML = "You have " + localStorage.clickcount4 + " many Foxes clicks.";
+                document.getElementById("result2").innerHTML = "You have " + localStorage.clickcount2 + " many Mice clicks.";
+                document.getElementById("result3").innerHTML = "You have " + localStorage.clickcount3 + " many Owls clicks.";
+                document.getElementById("result").innerHTML = "You have " + localStorage.clickcount + " many Bird clicks.";
+            } else {
+                document.getElementById("result2").innerHTML = "Sorry, your browser does not support web storage...";
+            }
+        }
+
+        function clickCounter3() {
+            if (typeof(Storage) !== "undefined") {
+                if (localStorage.clickcount3) {
+                    if (localStorage.clickcount2 >= 5) {
+                        localStorage.clickcount3 = Number(localStorage.clickcount3)+1;
+                        localStorage.clickcount2 = Number(localStorage.clickcount2)-5;
+                    }
+                
+                } else {
+                localStorage.clickcount3 = 0;
+                }
+                document.getElementById("result7").innerHTML = "You have " + localStorage.clickcount7 + " many human clicks.";
+                document.getElementById("result6").innerHTML = "You have " + localStorage.clickcount6 + " many Rabbits clicks.";
+                document.getElementById("result5").innerHTML = "You have " + localStorage.clickcount5 + " many Penguins clicks.";
+                document.getElementById("result4").innerHTML = "You have " + localStorage.clickcount4 + " many Foxes clicks.";
+                document.getElementById("result2").innerHTML = "You have " + localStorage.clickcount2 + " many Mice clicks.";
+                document.getElementById("result3").innerHTML = "You have " + localStorage.clickcount3 + " many Owls clicks.";
+                document.getElementById("result").innerHTML = "You have " + localStorage.clickcount + " many Bird clicks.";
+            } else {
+                document.getElementById("result3").innerHTML = "Sorry, your browser does not support web storage...";
+            }
+        }
+
+        function clickCounter4() {
+            if (typeof(Storage) !== "undefined") {
+                if (localStorage.clickcount4) {
+                    if (localStorage.clickcount2 >= 5) {
+                        localStorage.clickcount4 = Number(localStorage.clickcount4)+1;
+                        localStorage.clickcount2 = Number(localStorage.clickcount2)-5;
+                    }
+                
+                } else {
+                localStorage.clickcount4 = 0;
+                }
+                document.getElementById("result7").innerHTML = "You have " + localStorage.clickcount7 + " many human clicks.";
+                document.getElementById("result6").innerHTML = "You have " + localStorage.clickcount6 + " many Rabbits clicks.";
+                document.getElementById("result5").innerHTML = "You have " + localStorage.clickcount5 + " many Penguins clicks.";
+                document.getElementById("result4").innerHTML = "You have " + localStorage.clickcount4 + " many Foxes clicks.";
+                document.getElementById("result2").innerHTML = "You have " + localStorage.clickcount2 + " many Mice clicks.";
+                document.getElementById("result3").innerHTML = "You have " + localStorage.clickcount3 + " many Owls clicks.";
+                document.getElementById("result").innerHTML = "You have " + localStorage.clickcount + " many Bird clicks.";
+            } else {
+                document.getElementById("result4").innerHTML = "Sorry, your browser does not support web storage...";
+            }
+        }
+
+        function clickCounter5() {
+            if (typeof(Storage) !== "undefined") {
+                if (localStorage.clickcount5) {
+                    if (localStorage.clickcount3 >= 5) {
+                        localStorage.clickcount5 = Number(localStorage.clickcount5)+1;
+                        localStorage.clickcount3 = Number(localStorage.clickcount3)-5;
+                    }
+                
+                } else {
+                localStorage.clickcount5 = 0;
+                }
+                document.getElementById("result7").innerHTML = "You have " + localStorage.clickcount7 + " many human clicks.";
+                document.getElementById("result6").innerHTML = "You have " + localStorage.clickcount6 + " many Rabbits clicks.";
+                document.getElementById("result5").innerHTML = "You have " + localStorage.clickcount5 + " many Penguins clicks.";
+                document.getElementById("result4").innerHTML = "You have " + localStorage.clickcount4 + " many Foxes clicks.";
+                document.getElementById("result2").innerHTML = "You have " + localStorage.clickcount2 + " many Mice clicks.";
+                document.getElementById("result3").innerHTML = "You have " + localStorage.clickcount3 + " many Owls clicks.";
+                document.getElementById("result").innerHTML = "You have " + localStorage.clickcount + " many Bird clicks.";
+            } else {
+                document.getElementById("result5").innerHTML = "Sorry, your browser does not support web storage...";
+            }
+        }
+
+        function clickCounter6() {
+            if (typeof(Storage) !== "undefined") {
+                if (localStorage.clickcount6) {
+                    if (localStorage.clickcount4 >= 5) {
+                        localStorage.clickcount6 = Number(localStorage.clickcount6)+1;
+                        localStorage.clickcount4 = Number(localStorage.clickcount4)-5;
+                    }
+                
+                } else {
+                localStorage.clickcount6 = 0;
+                }
+                document.getElementById("result7").innerHTML = "You have " + localStorage.clickcount7 + " many human clicks.";
+                document.getElementById("result6").innerHTML = "You have " + localStorage.clickcount6 + " many Rabbits clicks.";
+                document.getElementById("result5").innerHTML = "You have " + localStorage.clickcount5 + " many Penguins clicks.";
+                document.getElementById("result4").innerHTML = "You have " + localStorage.clickcount4 + " many Foxes clicks.";
+                document.getElementById("result2").innerHTML = "You have " + localStorage.clickcount2 + " many Mice clicks.";
+                document.getElementById("result3").innerHTML = "You have " + localStorage.clickcount3 + " many Owls clicks.";
+                document.getElementById("result").innerHTML = "You have " + localStorage.clickcount + " many Bird clicks.";
+            } else {
+                document.getElementById("result5").innerHTML = "Sorry, your browser does not support web storage...";
+            }
+        }
+
+        function clickCounter7() {
+            if (typeof(Storage) !== "undefined") {
+                if (localStorage.clickcount7) {
+                    if (localStorage.clickcount6 >= 5 && localStorage.clickcount5 >= 5) {
+                        localStorage.clickcount7 = Number(localStorage.clickcount7)+1;
+                        localStorage.clickcount6 = Number(localStorage.clickcount6)-5;
+                        localStorage.clickcount5 = Number(localStorage.clickcount5)-5;
+                    }
+                
+                } else {
+                    localStorage.clickcount7 = 0;
+                }
+                document.getElementById("result7").innerHTML = "You have " + localStorage.clickcount7 + " many human clicks.";
+                document.getElementById("result6").innerHTML = "You have " + localStorage.clickcount6 + " many Rabbits clicks.";
+                document.getElementById("result5").innerHTML = "You have " + localStorage.clickcount5 + " many Penguins clicks.";
+                document.getElementById("result4").innerHTML = "You have " + localStorage.clickcount4 + " many Foxes clicks.";
+                document.getElementById("result2").innerHTML = "You have " + localStorage.clickcount2 + " many Mice clicks.";
+                document.getElementById("result3").innerHTML = "You have " + localStorage.clickcount3 + " many Owls clicks.";
+                document.getElementById("result").innerHTML = "You have " + localStorage.clickcount + " many Bird clicks.";
+            } else {
+                document.getElementById("result5").innerHTML = "Sorry, your browser does not support web storage...";
+            }
+        }
+
+        </script>
+
+        <style>
+            button {
+            width: 5.5em;
+            height: 5.5em;
+            color: violet;
+            font-size: 1.5em;
+            background: lightblue;
+            }
+
+            .Stages {
+                display: flex;
+                justify-content: space-around;
+                
+            }
+        </style>
+</head>
+
+<body>
+
+    <div class="Stages">
+
+        <div class="stage1">
+
+            <h2>Stage 1, One, I</h2>
+            <p><button class="click" onclick="clickCounter()" type="button"> &nbsp; &nbsp; &nbsp; &lpar; &nbsp; &middot; &rpar; &gt; <br> &lt; &prime; &lowbar; &sol; </button></p>
+            <div id="result"></div>
+
+            <p><button class="click" onclick="clickCounter2()" type="button"> &lpar; &rpar; - &lpar; &rpar; <br> &bsol; &quot; &sol; <br> &apos;</button></p>
+            <div id="result2"></div>
+
+            <p><button class="click" onclick="clickCounter3()" type="button"> &sol; &bsol; &lowbar; &sol; &bsol; <br> &lpar; &lpar; 0 V 0 &rpar; &rpar; <br> &lpar; &rpar; &excl; &excl; &excl; &lpar; &rpar; <br> VVV</button></p>
+            <div id="result3"></div>
+
+            <p><button class="click" onclick="clickCounter4()" type="button"> &sol; &bsol; &comma; &sol; &bsol; <br> &lt; &ast; &nbsp; &ast; &gt; <br> &OverBar; &bsol; &lowbar; &sol; &OverBar; </button></p>
+            <div id="result4"></div>
+
+            <p><button class="click" onclick="clickCounter5()" type="button">  &lowbar; &lowbar; <br> &lpar; &nbsp; o &gt; <br> &sol; &sol; &sol; &bsol; <br> &nbsp; V &lowbar; &sol; &lowbar;</button></p>
+            <div id="result5"></div>
+
+            <p><button class="click" onclick="clickCounter6()" type="button">  &nbsp;// <br> ( '> <br> /rr <br> *\ ))_</button></p>
+            <div id="result6"></div>
+
+            <p><button class="click" onclick="clickCounter7()" type="button"> ¯\_(ツ)_/¯ </button></p>
+            <div id="result7"></div>
+
+        </div>
+
+        <div class="stage2">
+            <h2>Stage 2, Two, II</h2>
+
+            <p><button class="click" onclick="clickCounter()" type="button"> ♁ <br> Earth </button></p>
+            <div id="result"></div>
+
+            <p><button class="click" onclick="clickCounter2()" type="button"> ♂ <br> Mars</button></p>
+            <div id="result2"></div>
+
+            <p><button class="click" onclick="clickCounter3()" type="button"> ♀ <br> Venus</button></p>
+            <div id="result3"></div>
+
+            <p><button class="click" onclick="clickCounter4()" type="button"> ☿	<br> Mercury</button></p>
+            <div id="result4"></div>
+
+            <p><button class="click" onclick="clickCounter5()" type="button"> ♇ <br> Pluto</button></p>
+        </div>
+
+        <div class="stage3">
+            <h2>Stage 3, Three, III</h2>
+        </div>
+
+        <div class="stage4">
+            <h2>Stage 4, Four, IV</h2>
+        </div>
+
+
+    </div>
+
+</body>
